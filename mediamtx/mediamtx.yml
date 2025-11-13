@@ -1,5 +1,15 @@
 api: yes
 apiAddress: :9997 
+authInternalUsers:
+  # Define your custom users here
+  - user: admin
+    pass: admin
+    ips: [] # An empty list means any IP is allowed
+    permissions:
+      - action: api
+      - action: metrics
+      - action: pprof
+
 
 paths:
   all:
