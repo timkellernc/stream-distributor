@@ -29,6 +29,5 @@ services:
       - "10018:10018/udp"
       - "10019:10019/udp"
       - "10020:10020/udp"
-    volumes:
-      - ./mediamtx/mediamtx.yml:/mediamtx.yml
-    command: []
+#    volumes:
+#      - ./mediamtx/mediamtx.yml:/mediamtx.yml
