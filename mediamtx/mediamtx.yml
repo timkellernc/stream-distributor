@@ -5,8 +5,6 @@ http: yes
 httpAddress: :8888
 
 paths:
-  all:
-    read: yes
   channel1:
     source: udp://:10001
   channel2:
