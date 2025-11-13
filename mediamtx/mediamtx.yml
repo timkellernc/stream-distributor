@@ -15,7 +15,7 @@ srtAddress: :8890
 
 paths:
   all:
-    allowPublish: yes
+    source: publisher
   channel1:
     source: udp://:10001
   channel2:
