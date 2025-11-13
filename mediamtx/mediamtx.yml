@@ -14,7 +14,6 @@ authInternalUsers:
 paths:
   all:
     sourceOnDemand: yes
-    readBufferCount: 8192
   channel1:
     source: udp://:10001
   channel2:
