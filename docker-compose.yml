@@ -5,13 +5,14 @@ services:
       - MTX_WEBRTCADDITIONALHOSTS=192.168.11.21
     ports:
       - "1935:1935"
-      - "8000:8000"
-      - "8001:8001"
-      - "8554:8554"    # RTSP
-      - "8888:8888"    # HTTP
-      - "8889:8889"
-      - "8890:8890"    # SRT
-      - "9997:9997"    # API
+      - "8000:8000/udp"
+      - "8001:8001/udp"
+      - "8554:8554"        # RTSP (TCP)
+      - "8888:8888"        # HTTP
+      - "8889:8889"        # WebRTC signaling
+      - "8189:8189/udp"    # WebRTC ICE
+      - "8890:8890/udp"    # SRT
+      - "9997:9997"        # API
       - "10001:10001/udp"  # UDP input for channel1
       - "10002:10002/udp"  # UDP inputs continued
       - "10003:10003/udp"
