@@ -2,6 +2,9 @@ api: yes
 apiAddress: :9997 
 
 paths:
+  all:
+    sourceOnDemand: yes
+    readBufferCount: 8192
   channel1:
     source: udp://:10001
   channel2:
