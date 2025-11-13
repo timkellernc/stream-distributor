@@ -16,7 +16,6 @@ srtAddress: :8890
 paths:
   channel1:
     source: udp://:10001
-    sourceOnDemand: yes
   channel2:
     source: udp://:10002
     sourceOnDemand: yes
