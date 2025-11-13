@@ -41,23 +41,34 @@ paths:
     sourceOnDemand: yes
   channel10:
     source: udp://:10010
+    sourceOnDemand: yes
   channel11:
     source: udp://:10011
+    sourceOnDemand: yes
   channel12:
     source: udp://:10012
+    sourceOnDemand: yes
   channel13:
     source: udp://:10013
+    sourceOnDemand: yes
   channel14:
     source: udp://:10014
+    sourceOnDemand: yes
   channel15:
     source: udp://:10015
+    sourceOnDemand: yes
   channel16:
     source: udp://:10016
+    sourceOnDemand: yes
   channel17:
     source: udp://:10017
+    sourceOnDemand: yes
   channel18:
     source: udp://:10018
+    sourceOnDemand: yes
   channel19:
     source: udp://:10019
+    sourceOnDemand: yes
   channel20:
     source: udp://:10020
+    sourceOnDemand: yes
