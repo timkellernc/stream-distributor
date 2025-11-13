@@ -29,4 +29,4 @@ services:
       - "10020:10020/udp"
     volumes:
       - ./mediamtx/mediamtx.yml:/mediamtx.yml
-    command: -config /mediamtx.yml
+    command: /mediamtx.yml
