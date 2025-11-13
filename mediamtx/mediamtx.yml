@@ -1,9 +1,6 @@
 api: yes
 apiAddress: :9997 
 
-http: yes
-httpAddress: :8888
-
 paths:
   channel1:
     source: udp://:10001
