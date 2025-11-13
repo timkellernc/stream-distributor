@@ -1,0 +1,50 @@
+api: yes
+apiAddress: :9997 
+
+http: yes
+httpAddress: :8888
+
+paths:
+  all:
+    read: yes
+  paths:
+    channel1:
+      source: udp://:10001
+    channel2:
+      source: udp://:10002
+    channel3:
+      source: udp://:10003
+    channel4:
+      source: udp://:10004
+    channel5:
+      source: udp://:10005
+    channel6:
+      source: udp://:10006
+    channel7:
+      source: udp://:10007
+    channel8:
+      source: udp://:10008
+    channel9:
+      source: udp://:10009
+    channel10:
+      source: udp://:10010
+    channel11:
+      source: udp://:10011
+    channel12:
+      source: udp://:10012
+    channel13:
+      source: udp://:10013
+    channel14:
+      source: udp://:10014
+    channel15:
+      source: udp://:10015
+    channel16:
+      source: udp://:10016
+    channel17:
+      source: udp://:10017
+    channel18:
+      source: udp://:10018
+    channel19:
+      source: udp://:10019
+    channel20:
+      source: udp://:10020
