@@ -10,6 +10,8 @@ authInternalUsers:
       - action: metrics
       - action: pprof
 
+srt: yes
+srtAddress: :8890
 
 paths:
   channel1:
