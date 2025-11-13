@@ -764,65 +764,64 @@ pathDefaults:
 # for example "~^(test1|test2)$" will match both "test1" and "test2",
 # for example "~^prefix" will match all paths that start with "prefix".
 paths:
-#  all:
-#    source: publisher
-#  channel1:
-#    source: udp://:10001
-#  channel2:
-#    source: udp://:10002
-#    sourceOnDemand: yes
-#  channel3:
-#    source: udp://:10003
-#    sourceOnDemand: yes
-#  channel4:
-#    source: udp://:10004
-#    sourceOnDemand: yes
-#  channel5:
-#    source: udp://:10005
-#    sourceOnDemand: yes
-#  channel6:
-#    source: udp://:10006
-#    sourceOnDemand: yes
-#  channel7:
-#    source: udp://:10007
-#    sourceOnDemand: yes
-#  channel8:
-#    source: udp://:10008
-#    sourceOnDemand: yes
-#  channel9:
-#    source: udp://:10009
-#    sourceOnDemand: yes
-#  channel10:
-#    source: udp://:10010
-#    sourceOnDemand: yes
-#  channel11:
-#    source: udp://:10011
-#    sourceOnDemand: yes
-#  channel12:
-#    source: udp://:10012
-#    sourceOnDemand: yes
-#  channel13:
-#    source: udp://:10013
-#    sourceOnDemand: yes
-#  channel14:
-#    source: udp://:10014
-#    sourceOnDemand: yes
-#  channel15:
-#    source: udp://:10015
-#    sourceOnDemand: yes
-#  channel16:
-#    source: udp://:10016
-#    sourceOnDemand: yes
-#  channel17:
-#    source: udp://:10017
-#    sourceOnDemand: yes
-#  channel18:
-#    source: udp://:10018
-#    sourceOnDemand: yes
-#  channel19:
-#    source: udp://:10019
-#    sourceOnDemand: yes
-#  channel20:
-#    source: udp://:10020
-#    sourceOnDemand: yes
-  all_others:
+  all:
+    source: publisher
+  channel1:
+    source: udp://:10001
+  channel2:
+    source: udp://:10002
+    sourceOnDemand: yes
+  channel3:
+    source: udp://:10003
+    sourceOnDemand: yes
+  channel4:
+    source: udp://:10004
+    sourceOnDemand: yes
+  channel5:
+    source: udp://:10005
+    sourceOnDemand: yes
+  channel6:
+    source: udp://:10006
+    sourceOnDemand: yes
+  channel7:
+    source: udp://:10007
+    sourceOnDemand: yes
+  channel8:
+    source: udp://:10008
+    sourceOnDemand: yes
+  channel9:
+    source: udp://:10009
+    sourceOnDemand: yes
+  channel10:
+    source: udp://:10010
+    sourceOnDemand: yes
+  channel11:
+    source: udp://:10011
+    sourceOnDemand: yes
+  channel12:
+    source: udp://:10012
+    sourceOnDemand: yes
+  channel13:
+    source: udp://:10013
+    sourceOnDemand: yes
+  channel14:
+    source: udp://:10014
+    sourceOnDemand: yes
+  channel15:
+    source: udp://:10015
+    sourceOnDemand: yes
+  channel16:
+    source: udp://:10016
+    sourceOnDemand: yes
+  channel17:
+    source: udp://:10017
+    sourceOnDemand: yes
+  channel18:
+    source: udp://:10018
+    sourceOnDemand: yes
+  channel19:
+    source: udp://:10019
+    sourceOnDemand: yes
+  channel20:
+    source: udp://:10020
+    sourceOnDemand: yes
