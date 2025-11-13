@@ -1,6 +1,6 @@
 services:
   mediamtx:
-    image: bluenviron/mediamtx:1
+    image: bluenviron/mediamtx:1-ffmpeg
     environment:
       - MTX_WEBRTCADDITIONALHOSTS=192.168.11.21
     ports:
